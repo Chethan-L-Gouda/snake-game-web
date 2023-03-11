@@ -126,6 +126,15 @@ function apple(){
 }
 let slength:number=0;
 let tx_cord: Array<number>;let ty_cord:Array<number>;
+let snakeLength:number=0;
+interface Cords{
+	x:number,
+	y:number
+}
+let snakeBlockCords : Array<Cords>;
+function drawSnakeBlocks(){
+	
+}
 function drawSnake(){
 	ctx.fillStyle='violet';
 	ctx.fillRect(x_cord,y_cord,boxSize,boxSize);
